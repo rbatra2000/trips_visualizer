@@ -1,0 +1,424 @@
+{
+    "trips": [
+        {
+            "id": "nyjan",
+            "name": "Trip to New York",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-01-01"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-01-05"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-01-06"
+                }
+            ]
+        },
+        {
+            "id": "trip2",
+            "name": "Vegas Weekend",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-01-15"
+                },
+                {
+                    "airport": "LAS",
+                    "date": "2024-01-18"
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-01-20"
+                }
+            ]
+        },
+        {
+            "id": "trip3",
+            "name": "East Coast Trip",
+            "stops": [
+                {
+                    "airport": "LAS",
+                    "date": "2024-02-01"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-02-05"
+                },
+                {
+                    "airport": "LAS",
+                    "date": "2024-02-10"
+                }
+            ]
+        },
+        {
+            "id": "europe-tour",
+            "name": "European Adventure",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-03-01"
+                },
+                {
+                    "airport": "LHR",
+                    "date": "2024-03-02"
+                },
+                {
+                    "airport": "CDG",
+                    "date": "2024-03-08"
+                },
+                {
+                    "airport": "FCO",
+                    "date": "2024-03-12"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-03-18"
+                }
+            ]
+        },
+        {
+            "id": "tokyo-trip",
+            "name": "Tokyo Business Trip",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-03-20"
+                },
+                {
+                    "airport": "NRT",
+                    "date": "2024-03-21"
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-03-28"
+                }
+            ]
+        },
+        {
+            "id": "australia-trip",
+            "name": "Down Under",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-04-05"
+                },
+                {
+                    "airport": "SYD",
+                    "date": "2024-04-06"
+                },
+                {
+                    "airport": "MEL",
+                    "date": "2024-04-12"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-04-18"
+                }
+            ]
+        },
+        {
+            "id": "miami-spring",
+            "name": "Miami Spring Break",
+            "stops": [
+                {
+                    "airport": "ORD",
+                    "date": "2024-04-20"
+                },
+                {
+                    "airport": "MIA",
+                    "date": "2024-04-25"
+                },
+                {
+                    "airport": "ORD",
+                    "date": "2024-04-28"
+                }
+            ]
+        },
+        {
+            "id": "canada-trip",
+            "name": "Canadian Getaway",
+            "stops": [
+                {
+                    "airport": "SEA",
+                    "date": "2024-05-01"
+                },
+                {
+                    "airport": "YVR",
+                    "date": "2024-05-03"
+                },
+                {
+                    "airport": "YYZ",
+                    "date": "2024-05-08"
+                },
+                {
+                    "airport": "SEA",
+                    "date": "2024-05-12"
+                }
+            ]
+        },
+        {
+            "id": "mexico-beach",
+            "name": "Cancun Vacation",
+            "stops": [
+                {
+                    "airport": "DFW",
+                    "date": "2024-05-15"
+                },
+                {
+                    "airport": "CUN",
+                    "date": "2024-05-20"
+                },
+                {
+                    "airport": "DFW",
+                    "date": "2024-05-25"
+                }
+            ]
+        },
+        {
+            "id": "asia-multi",
+            "name": "Asian Circuit",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-06-01"
+                },
+                {
+                    "airport": "HKG",
+                    "date": "2024-06-02"
+                },
+                {
+                    "airport": "SIN",
+                    "date": "2024-06-07"
+                },
+                {
+                    "airport": "BKK",
+                    "date": "2024-06-12"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-06-18"
+                }
+            ]
+        },
+        {
+            "id": "boston-quick",
+            "name": "Boston Quick Trip",
+            "stops": [
+                {
+                    "airport": "JFK",
+                    "date": "2024-06-20"
+                },
+                {
+                    "airport": "BOS",
+                    "date": "2024-06-22"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-06-23"
+                }
+            ]
+        },
+        {
+            "id": "south-america",
+            "name": "South American Tour",
+            "stops": [
+                {
+                    "airport": "MIA",
+                    "date": "2024-07-01"
+                },
+                {
+                    "airport": "GRU",
+                    "date": "2024-07-02"
+                },
+                {
+                    "airport": "EZE",
+                    "date": "2024-07-08"
+                },
+                {
+                    "airport": "SCL",
+                    "date": "2024-07-13"
+                },
+                {
+                    "airport": "MIA",
+                    "date": "2024-07-18"
+                }
+            ]
+        },
+        {
+            "id": "portland-trip",
+            "name": "Portland Visit",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-07-22"
+                },
+                {
+                    "airport": "PDX",
+                    "date": "2024-07-25"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-07-27"
+                }
+            ]
+        },
+        {
+            "id": "dubai-stopover",
+            "name": "Dubai & India",
+            "stops": [
+                {
+                    "airport": "JFK",
+                    "date": "2024-08-01"
+                },
+                {
+                    "airport": "DXB",
+                    "date": "2024-08-02"
+                },
+                {
+                    "airport": "BOM",
+                    "date": "2024-08-05"
+                },
+                {
+                    "airport": "DXB",
+                    "date": "2024-08-12"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-08-15"
+                }
+            ]
+        },
+        {
+            "id": "denver-ski",
+            "name": "Denver Ski Trip",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-09-05"
+                },
+                {
+                    "airport": "DEN",
+                    "date": "2024-09-08"
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-09-12"
+                }
+            ]
+        },
+        {
+            "id": "iceland-adventure",
+            "name": "Iceland & Scandinavia",
+            "stops": [
+                {
+                    "airport": "BOS",
+                    "date": "2024-09-15"
+                },
+                {
+                    "airport": "KEF",
+                    "date": "2024-09-16"
+                },
+                {
+                    "airport": "OSL",
+                    "date": "2024-09-20"
+                },
+                {
+                    "airport": "CPH",
+                    "date": "2024-09-24"
+                },
+                {
+                    "airport": "BOS",
+                    "date": "2024-09-28"
+                }
+            ]
+        },
+        {
+            "id": "austin-tech",
+            "name": "Austin Conference",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-10-01"
+                },
+                {
+                    "airport": "AUS",
+                    "date": "2024-10-03"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-10-05"
+                }
+            ]
+        },
+        {
+            "id": "germany-trip",
+            "name": "German Cities",
+            "stops": [
+                {
+                    "airport": "ORD",
+                    "date": "2024-10-10"
+                },
+                {
+                    "airport": "FRA",
+                    "date": "2024-10-11"
+                },
+                {
+                    "airport": "MUC",
+                    "date": "2024-10-16"
+                },
+                {
+                    "airport": "ORD",
+                    "date": "2024-10-20"
+                }
+            ]
+        },
+        {
+            "id": "seattle-short",
+            "name": "Seattle Weekend",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-11-01"
+                },
+                {
+                    "airport": "SEA",
+                    "date": "2024-11-03"
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-11-05"
+                }
+            ]
+        },
+        {
+            "id": "caribbean-cruise",
+            "name": "Caribbean Holiday",
+            "stops": [
+                {
+                    "airport": "ATL",
+                    "date": "2024-12-01"
+                },
+                {
+                    "airport": "SJU",
+                    "date": "2024-12-03"
+                },
+                {
+                    "airport": "STT",
+                    "date": "2024-12-07"
+                },
+                {
+                    "airport": "MIA",
+                    "date": "2024-12-10"
+                },
+                {
+                    "airport": "ATL",
+                    "date": "2024-12-12"
+                }
+            ]
+        }
+    ]
+}

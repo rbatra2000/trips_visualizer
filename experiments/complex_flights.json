@@ -1,0 +1,514 @@
+{
+    "trips": [
+        {
+            "id": "nyjan",
+            "name": "Trip to New York",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-01-05"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-01-05",
+                    "layover": true
+                },
+                {
+                    "airport": "LHR",
+                    "date": "2024-01-06"
+                }
+            ]
+        },
+        {
+            "id": "europe-complex",
+            "name": "European Multi-City",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-02-01"
+                },
+                {
+                    "airport": "ORD",
+                    "date": "2024-02-01",
+                    "layover": true
+                },
+                {
+                    "airport": "CDG",
+                    "date": "2024-02-02"
+                },
+                {
+                    "airport": "FCO",
+                    "date": "2024-02-08"
+                },
+                {
+                    "airport": "MUC",
+                    "date": "2024-02-14"
+                },
+                {
+                    "airport": "FRA",
+                    "date": "2024-02-14",
+                    "layover": true
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-02-15"
+                }
+            ]
+        },
+        {
+            "id": "oneway-relocation",
+            "name": "One-Way Move to Seattle",
+            "stops": [
+                {
+                    "airport": "MIA",
+                    "date": "2024-02-20"
+                },
+                {
+                    "airport": "DEN",
+                    "date": "2024-02-20",
+                    "layover": true
+                },
+                {
+                    "airport": "SEA",
+                    "date": "2024-02-20"
+                }
+            ]
+        },
+        {
+            "id": "asia-layovers",
+            "name": "Asia Trip with Multiple Layovers",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-03-01"
+                },
+                {
+                    "airport": "NRT",
+                    "date": "2024-03-02",
+                    "layover": true
+                },
+                {
+                    "airport": "BKK",
+                    "date": "2024-03-03"
+                },
+                {
+                    "airport": "SIN",
+                    "date": "2024-03-10"
+                },
+                {
+                    "airport": "HKG",
+                    "date": "2024-03-10",
+                    "layover": true
+                },
+                {
+                    "airport": "SFO",
+                    "date": "2024-03-11"
+                }
+            ]
+        },
+        {
+            "id": "oneway-job",
+            "name": "One-Way to New Job",
+            "stops": [
+                {
+                    "airport": "BOS",
+                    "date": "2024-03-15"
+                },
+                {
+                    "airport": "ATL",
+                    "date": "2024-03-15",
+                    "layover": true
+                },
+                {
+                    "airport": "AUS",
+                    "date": "2024-03-15"
+                }
+            ]
+        },
+        {
+            "id": "south-america-complex",
+            "name": "South America Circuit",
+            "stops": [
+                {
+                    "airport": "JFK",
+                    "date": "2024-04-01"
+                },
+                {
+                    "airport": "PTY",
+                    "date": "2024-04-01",
+                    "layover": true
+                },
+                {
+                    "airport": "LIM",
+                    "date": "2024-04-02"
+                },
+                {
+                    "airport": "GRU",
+                    "date": "2024-04-08"
+                },
+                {
+                    "airport": "EZE",
+                    "date": "2024-04-14"
+                },
+                {
+                    "airport": "SCL",
+                    "date": "2024-04-14",
+                    "layover": true
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-04-15"
+                }
+            ]
+        },
+        {
+            "id": "quick-roundtrip",
+            "name": "Quick Vegas Trip",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-04-20"
+                },
+                {
+                    "airport": "LAS",
+                    "date": "2024-04-22"
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-04-23"
+                }
+            ]
+        },
+        {
+            "id": "oneway-summer",
+            "name": "One-Way to East Coast",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-05-01"
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-05-01"
+                }
+            ]
+        },
+        {
+            "id": "australia-long",
+            "name": "Australia Adventure",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-05-10"
+                },
+                {
+                    "airport": "HNL",
+                    "date": "2024-05-10",
+                    "layover": true
+                },
+                {
+                    "airport": "SYD",
+                    "date": "2024-05-11"
+                },
+                {
+                    "airport": "MEL",
+                    "date": "2024-05-18"
+                },
+                {
+                    "airport": "AKL",
+                    "date": "2024-05-25"
+                },
+                {
+                    "airport": "SYD",
+                    "date": "2024-05-25",
+                    "layover": true
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-05-26"
+                }
+            ]
+        },
+        {
+            "id": "midwest-tour",
+            "name": "Midwest Business Tour",
+            "stops": [
+                {
+                    "airport": "ORD",
+                    "date": "2024-06-01"
+                },
+                {
+                    "airport": "MSP",
+                    "date": "2024-06-05"
+                },
+                {
+                    "airport": "DEN",
+                    "date": "2024-06-10"
+                },
+                {
+                    "airport": "ORD",
+                    "date": "2024-06-10",
+                    "layover": true
+                },
+                {
+                    "airport": "BOS",
+                    "date": "2024-06-10"
+                }
+            ]
+        },
+        {
+            "id": "middle-east",
+            "name": "Middle East Journey",
+            "stops": [
+                {
+                    "airport": "JFK",
+                    "date": "2024-06-15"
+                },
+                {
+                    "airport": "IST",
+                    "date": "2024-06-16",
+                    "layover": true
+                },
+                {
+                    "airport": "DXB",
+                    "date": "2024-06-16"
+                },
+                {
+                    "airport": "DOH",
+                    "date": "2024-06-23"
+                },
+                {
+                    "airport": "DXB",
+                    "date": "2024-06-23",
+                    "layover": true
+                },
+                {
+                    "airport": "JFK",
+                    "date": "2024-06-24"
+                }
+            ]
+        },
+        {
+            "id": "oneway-coast",
+            "name": "One-Way West Coast",
+            "stops": [
+                {
+                    "airport": "BOS",
+                    "date": "2024-07-01"
+                },
+                {
+                    "airport": "ORD",
+                    "date": "2024-07-01",
+                    "layover": true
+                },
+                {
+                    "airport": "PDX",
+                    "date": "2024-07-01"
+                }
+            ]
+        },
+        {
+            "id": "canada-simple",
+            "name": "Toronto Quick Trip",
+            "stops": [
+                {
+                    "airport": "LGA",
+                    "date": "2024-07-10"
+                },
+                {
+                    "airport": "YYZ",
+                    "date": "2024-07-13"
+                },
+                {
+                    "airport": "LGA",
+                    "date": "2024-07-15"
+                }
+            ]
+        },
+        {
+            "id": "africa-safari",
+            "name": "African Safari",
+            "stops": [
+                {
+                    "airport": "IAD",
+                    "date": "2024-08-01"
+                },
+                {
+                    "airport": "ADD",
+                    "date": "2024-08-02",
+                    "layover": true
+                },
+                {
+                    "airport": "NBO",
+                    "date": "2024-08-02"
+                },
+                {
+                    "airport": "JNB",
+                    "date": "2024-08-10"
+                },
+                {
+                    "airport": "CPT",
+                    "date": "2024-08-16"
+                },
+                {
+                    "airport": "JNB",
+                    "date": "2024-08-16",
+                    "layover": true
+                },
+                {
+                    "airport": "IAD",
+                    "date": "2024-08-17"
+                }
+            ]
+        },
+        {
+            "id": "scandinavia",
+            "name": "Nordic Tour",
+            "stops": [
+                {
+                    "airport": "EWR",
+                    "date": "2024-08-20"
+                },
+                {
+                    "airport": "KEF",
+                    "date": "2024-08-21",
+                    "layover": true
+                },
+                {
+                    "airport": "OSL",
+                    "date": "2024-08-21"
+                },
+                {
+                    "airport": "ARN",
+                    "date": "2024-08-27"
+                },
+                {
+                    "airport": "CPH",
+                    "date": "2024-09-02"
+                },
+                {
+                    "airport": "EWR",
+                    "date": "2024-09-08"
+                }
+            ]
+        },
+        {
+            "id": "oneway-retirement",
+            "name": "One-Way Retirement Move",
+            "stops": [
+                {
+                    "airport": "ORD",
+                    "date": "2024-09-15"
+                },
+                {
+                    "airport": "PHX",
+                    "date": "2024-09-15"
+                }
+            ]
+        },
+        {
+            "id": "caribbean-hopping",
+            "name": "Island Hopping",
+            "stops": [
+                {
+                    "airport": "MIA",
+                    "date": "2024-10-01"
+                },
+                {
+                    "airport": "SJU",
+                    "date": "2024-10-05"
+                },
+                {
+                    "airport": "STT",
+                    "date": "2024-10-10"
+                },
+                {
+                    "airport": "AUA",
+                    "date": "2024-10-15"
+                },
+                {
+                    "airport": "MIA",
+                    "date": "2024-10-20"
+                }
+            ]
+        },
+        {
+            "id": "texas-triangle",
+            "name": "Texas Business Trip",
+            "stops": [
+                {
+                    "airport": "LAX",
+                    "date": "2024-10-25"
+                },
+                {
+                    "airport": "DFW",
+                    "date": "2024-10-28"
+                },
+                {
+                    "airport": "HOU",
+                    "date": "2024-11-01"
+                },
+                {
+                    "airport": "AUS",
+                    "date": "2024-11-05"
+                },
+                {
+                    "airport": "DFW",
+                    "date": "2024-11-05",
+                    "layover": true
+                },
+                {
+                    "airport": "LAX",
+                    "date": "2024-11-05"
+                }
+            ]
+        },
+        {
+            "id": "oneway-study",
+            "name": "One-Way Study Abroad",
+            "stops": [
+                {
+                    "airport": "SFO",
+                    "date": "2024-11-10"
+                },
+                {
+                    "airport": "LHR",
+                    "date": "2024-11-11",
+                    "layover": true
+                },
+                {
+                    "airport": "EDI",
+                    "date": "2024-11-11"
+                }
+            ]
+        },
+        {
+            "id": "holiday-family",
+            "name": "Holiday Family Visit",
+            "stops": [
+                {
+                    "airport": "SEA",
+                    "date": "2024-12-20"
+                },
+                {
+                    "airport": "DEN",
+                    "date": "2024-12-20",
+                    "layover": true
+                },
+                {
+                    "airport": "ATL",
+                    "date": "2024-12-20"
+                },
+                {
+                    "airport": "DEN",
+                    "date": "2024-12-27",
+                    "layover": true
+                },
+                {
+                    "airport": "SEA",
+                    "date": "2024-12-27"
+                }
+            ]
+        }
+    ]
+}
