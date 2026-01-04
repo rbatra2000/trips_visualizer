@@ -1,0 +1,110 @@
+// Example trips - Try editing the code below!
+// Invalid airport codes will be highlighted with red underlines
+
+trip(
+  name="San Francisco, CA, December 2024",
+  stops=["EWR", "SFO", "EWR"],
+  from="Dec 24 2024",
+  to="Jan 7 2025",
+  tags=["holiday"],
+  color="orange"
+)
+
+trip(
+  name="ski trip",
+  stops=["JFK", "MXP", Zermatt, "MXP", "JFK"], // don't know how to fix this if it's not a flight
+  from="Jan 24 2025",
+  to="Feb 2 2025",
+  tags=["vacation", "europe"],
+  color="brown"
+)
+
+trip(
+  name="Reykjavik, Iceland, February 2025",
+  stops=["JFK", "KEF", "JFK"],
+  from="Feb 13 2025",
+  to="Feb 19 2025",
+  tags=["vacation", "europe"],
+  color="blue"
+)
+
+trip(
+  name="Dubai, United Arab Emirates, March 2025",
+  stops=["JFK", "RUH", "DXB", "JED", "JFK"],
+  from="Mar 15 2025",
+  to="Mar 21 2025",
+  tags=["vacation", "middle-east"],
+  color="red"
+)
+
+trip(
+  name="San Francisco, CA, April 2025",
+  stops=["JFK", "SFO", "JFK"],
+  from="Apr 25 2025",
+  to="May 5 2025",
+  tags=["vacation"],
+  color="orange"
+)
+
+trip(
+  name="Toronto, ON, Canada, May 2025",
+  stops=["LGA", "YYZ", "LGA"],
+  from="May 11 2025",
+  to="May 21 2025",
+  tags=["vacation", "canada"],
+  color="red"
+)
+
+trip(
+  name="San Francisco, CA, July 2025",
+  stops=["EWR", "SFO", "EWR"],
+  from="Jul 3 2025",
+  to="Jul 14 2025",
+  tags=["vacation"],
+  color="orange"
+)
+
+trip(
+  name="JFK -> SFO",
+  stops=["JFK", "SFO", "JFK"],
+  from="Sep 25 2025",
+  to="Oct 4 2025",
+  tags=["personal"],
+  color="orange"
+)
+
+trip(
+  name="chicago + boston",
+  stops=["LGA", "ORD", "BOS", "JFK"],
+  from="Nov 5 2025",
+  to="Nov 9 2025",
+  tags=["business", "multi-city"],
+  color="blue"
+)
+
+trip(
+  name="thanksgiving with bindu",
+  stops=["JFK", "IAD", "JFK"],
+  from="Nov 26 2025",
+  to="Nov 29 2025",
+  tags=["bus", "visiting"],
+  color="gray"
+)
+
+trip(
+  name="San Francisco, CA, December 2025",
+  stops=["EWR", "SFO"],
+  from="Dec 16 2025",
+  to="Dec 16 2025",
+  tags=["one-way"],
+  color="orange"
+)
+
+trip(
+  name="Kalihi Wai, HI, December 2025",
+  stops=["SFO", "LIH", "SFO"],
+  from="Dec 22 2025",
+  to="Dec 26 2025",
+  tags=["vacation", "hawaii", "hotel"],
+  color="green"
+)

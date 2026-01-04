@@ -1,0 +1,14 @@
+{
+  "projectName": "TripDSL",
+  "languages": [
+    {
+      "id": "tripdsl",
+      "grammar": "langium/trip-dsl.langium",
+      "fileExtensions": [".trip"],
+      "textMate": {
+        "out": "langium/generated/trip-dsl.tmLanguage.json"
+      }
+    }
+  ],
+  "out": "langium/generated"
+}
