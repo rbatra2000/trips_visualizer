@@ -27,60 +27,33 @@ const MonacoEditor = dynamic(() => import('@/components/Editor/MonacoEditor'), {
   ),
 });
 
-const defaultDSL = `// Example trips - Try editing the code below!
-// Invalid airport codes will be highlighted with red underlines
-
-trip(
-  name="Copenhagen Adventure",
-  stops=["SFO", "JFK", "CPH"],
-  from="Jan 1 2024",
-  to="Jan 5 2024",
-  tags=["vacation", "europe"],
-  color="blue"
-)
-
-trip(
-  name="Tokyo Business",
-  stops=["LAX", "NRT", "LAX"],
-  from="Mar 20 2024",
-  to="Mar 28 2024",
-  tags=["business"],
-  color="green"
-)
-
-trip(
-  name="European Tour",
-  stops=["SFO", "LHR", "CDG", "FCO", "SFO"],
-  from="Jun 1 2024",
-  to="Jun 15 2024",
-  tags=["vacation", "multi-city"],
-  color="purple"
-)`;
-
 export default function HomePage() {
-  const [dslCode, setDslCode] = useState(defaultDSL);
+  const [dslCode, setDslCode] = useState<string>('');
   const [routes, setRoutes] = useState<RouteWithCoordinates[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [validationErrors, setValidationErrors] = useState<ValidationError[]>([]);
   const [isUserTyping, setIsUserTyping] = useState(false);
 
-  // Load airports on mount
+  // Load demo.txt and airports on mount
   useEffect(() => {
     const loadData = async () => {
       try {
+        const demo = await fetch('/demo.txt').then(res => res.text());
+        setDslCode(demo);
+
         await airportService.loadAirports();
         setLoading(false);
-        // Parse initial DSL
-        await parseAndVisualize(defaultDSL);
+        await parseAndVisualize(demo);
       } catch (err) {
-        setError('Failed to load airport data');
+        setError('Failed to load data');
         setLoading(false);
         console.error(err);
       }
     };
 
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const parseAndVisualize = useCallback(async (code: string) => {

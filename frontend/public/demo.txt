@@ -2,74 +2,74 @@
 // Invalid airport codes will be highlighted with red underlines
 
 trip(
-  name="San Francisco, CA, December 2024",
-  stops=["EWR", "SFO", "EWR"],
+  name="trip back from home",
+  stops=["SFO", "EWR"],
   from="Dec 24 2024",
   to="Jan 7 2025",
-  tags=["holiday"],
-  color="orange"
+  tags=["holidays"],
+  color="green"
 )
 
 trip(
   name="ski trip",
-  stops=["JFK", "MXP", Zermatt, "MXP", "JFK"], // don't know how to fix this if it's not a flight
+  stops=["JFK", "MXP", "ZRH", "MXP", "JFK"], // Zurich technically should be Zermatt
   from="Jan 24 2025",
   to="Feb 2 2025",
-  tags=["vacation", "europe"],
-  color="brown"
+  tags=["skiing"],
+  color="gray"
 )
 
 trip(
-  name="Reykjavik, Iceland, February 2025",
+  name="iceland adventures",
   stops=["JFK", "KEF", "JFK"],
   from="Feb 13 2025",
   to="Feb 19 2025",
-  tags=["vacation", "europe"],
+  tags=["hiking"],
   color="blue"
 )
 
 trip(
-  name="Dubai, United Arab Emirates, March 2025",
+  name="augmented humans",
   stops=["JFK", "RUH", "DXB", "JED", "JFK"],
   from="Mar 15 2025",
   to="Mar 21 2025",
-  tags=["vacation", "middle-east"],
+  tags=["conference", "texteng"],
   color="red"
 )
 
 trip(
-  name="San Francisco, CA, April 2025",
+  name="friend's wedding",
   stops=["JFK", "SFO", "JFK"],
   from="Apr 25 2025",
   to="May 5 2025",
-  tags=["vacation"],
+  tags=["wedding"],
   color="orange"
 )
 
 trip(
-  name="Toronto, ON, Canada, May 2025",
+  name="starting internship",
   stops=["LGA", "YYZ", "LGA"],
   from="May 11 2025",
   to="May 21 2025",
-  tags=["vacation", "canada"],
-  color="red"
+  tags=["autodesk"],
+  color="black"
 )
 
 trip(
-  name="San Francisco, CA, July 2025",
+  name="sis-in-law's bday",
   stops=["EWR", "SFO", "EWR"],
   from="Jul 3 2025",
   to="Jul 14 2025",
-  tags=["vacation"],
+  tags=["birthday"],
   color="orange"
 )
 
 trip(
-  name="JFK -> SFO",
+  name="friend's engagement",
   stops=["JFK", "SFO", "JFK"],
   from="Sep 25 2025",
   to="Oct 4 2025",
-  tags=["personal"],
+  tags=["wedding"],
   color="orange"
 )
 
@@ -83,28 +83,28 @@ trip(
 )
 
 trip(
-  name="thanksgiving with bindu",
+  name="thanksgiving with gf",
   stops=["JFK", "IAD", "JFK"],
   from="Nov 26 2025",
   to="Nov 29 2025",
-  tags=["bus", "visiting"],
+  tags=["bus", "holidays"],
   color="gray"
 )
 
 trip(
-  name="San Francisco, CA, December 2025",
+  name="visiting home for holidays",
   stops=["EWR", "SFO"],
   from="Dec 16 2025",
   to="Dec 16 2025",
-  tags=["one-way"],
-  color="orange"
+  tags=["holidays"],
+  color="green"
 )
 
 trip(
-  name="Kalihi Wai, HI, December 2025",
+  name="hawaii vacation",
   stops=["SFO", "LIH", "SFO"],
   from="Dec 22 2025",
   to="Dec 26 2025",
-  tags=["vacation", "hawaii", "hotel"],
+  tags=["holidays", "hawaii", "family"],
   color="green"
 )
