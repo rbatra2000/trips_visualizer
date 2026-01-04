@@ -1,4 +1,4 @@
-import { EmptyFileSystem, type LangiumCoreServices, type LangiumSharedCoreServices, inject, createDefaultModule, createDefaultSharedModule } from 'langium';
+import { EmptyFileSystem, type LangiumCoreServices, type LangiumSharedCoreServices, inject, createDefaultCoreModule, createDefaultSharedCoreModule } from 'langium';
 import { TripDSLGeneratedModule, TripDSLGeneratedSharedModule } from '@/langium/generated/module';
 
 export type TripDslServices = LangiumCoreServices;
@@ -8,12 +8,12 @@ export function createTripDslServices(): {
   TripDsl: TripDslServices;
 } {
   const shared = inject(
-    createDefaultSharedModule(EmptyFileSystem),
+    createDefaultSharedCoreModule(EmptyFileSystem),
     TripDSLGeneratedSharedModule
   );
 
   const TripDsl = inject(
-    createDefaultModule({ shared }),
+    createDefaultCoreModule({ shared }),
     TripDSLGeneratedModule
   );
 
